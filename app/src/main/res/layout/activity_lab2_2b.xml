@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lab2_2b">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="375dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/usb"
+        android:drawablePadding="10px"
+        android:gravity="center|left"
+        android:text="USB Bluetooth Music Receiver HJX-001 - Bien loa thuong thanh loa Bluetooth"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Cuc ky hai long"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="267dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="24dp"
+        android:drawableLeft="@drawable/camera"
+        android:drawablePadding="-30px"
+        android:gravity="clip_horizontal|center"
+        android:text="Them hinh anh"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="349dp"
+        android:layout_height="303dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Hay chia se nhung dieu ma ban thick ve san pham"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://google.com.vn"
+        android:textColor="#040404"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintVertical_bias="0.961" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="366dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:text="GUI"
+        app:backgroundTint="#0D5DB6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
