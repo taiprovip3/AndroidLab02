@@ -3,12 +3,13 @@ package com.example.lab;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
-public class lab2_2b extends AppCompatActivity {
-
+public class lab3c extends AppCompatActivity {
+TextView txtView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lab2_2b);
+        setContentView(R.layout.activity_lab3_3c);
     }
 }
